@@ -1,0 +1,119 @@
+:root {
+    --color-fondo: rgb(219, 236, 219);
+    --color-texto: hsl(0, 0%, 15%);
+    --color-principal: hsl(217, 76%, 73%);
+    --color-blanco: hsl(0, 0%, 100%); 
+    --color-borde: hsl(0, 0%, 87%); 
+    --radio-border: 12px;
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ESTILOS GENERALES*/
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/* CONTENEDOR PRINCIPAL*/
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: var(--color-blanco);
+    border-radius: var(--radio-border);
+}
+
+h1 {
+    font-size: clamp(24px, 5vw, 32px);
+    color: var(--color-texto);
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#cantidad {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    background-color: var(--color-blanco);
+    cursor: pointer;
+}
+
+#generar {
+    padding: 12px 20px;
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tarjeta {
+    background-color: var(--color-blanco);
+    border: 1px solid var(--color-borde);
+    border-radius: var(--radio-border);
+    padding: 10px;
+    text-align: center;
+
+}
+
+.color {
+    height: 120px;
+    border-radius: 8px;
+}
+
+.codigo {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+#paleta {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 600px) {
+    main {
+        width: 95%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    #cantidad,
+    #generar {
+        display: block;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    #paleta {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
