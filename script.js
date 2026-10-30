@@ -4,6 +4,8 @@ const botonGenerar = document.getElementById("generar");
 
 const paleta = document.getElementById("paleta");
 
+const mensaje = document.getElementById("mensaje");
+
 function generarColorHSL(){
     const tono = Math.floor(Math.random() * 360);
     const saturacion = Math.floor(Math.random() * 101);
@@ -58,7 +60,10 @@ botonGenerar.addEventListener("click", function() {
         paleta.appendChild(tarjeta);
         
     }
+    mensaje.textContent = "¡Paleta generada correctamente!";
+
 
 });
+
 
 
