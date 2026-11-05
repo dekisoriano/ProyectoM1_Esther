@@ -36,7 +36,7 @@ La inteligencia artificial funcionó como una herramienta de aprendizaje y apoyo
 
 ### Prompt utilizado
 
-"Explícame cómo utilizar Math.random() para generar colores aleatorios en mi proyecto de generador de paletas. Soy principiante en JavaScript."
+"¿Cómo usar Math.random para colores? Explícamelo como principiante."
 
 ### Resultado obtenido
 
@@ -52,5 +52,6 @@ Aprendí cómo utilizar JavaScript para generar una paleta con diferentes cantid
 
 La inteligencia artificial me permitió entender mejor estos conceptos y utilizarlos durante el desarrollo.
 
-### Evidencia del uso de IA.
-![Conversación con ChatGPT sobre la planificación del proyecto](evidencias-ia/ia-js.png)
+### Evidencia del uso de IA
+
+![Conversación con ChatGPT sobre la generación de colores en JavaScript](evidencias-ia/ia-js.png)
