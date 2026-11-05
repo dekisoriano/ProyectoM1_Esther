@@ -17,7 +17,7 @@ Durante el desarrollo de este proyecto pude reforzar mis conocimientos de HTML, 
 
 ## Tecnologías utilizadas 
 - HTML 5: lo utilicé para crear la estructura de mi proyecto, organizando los diferentes elementos de la página, como el título, el selector de colores y el botón para generar la paleta.
-- CSS:  lo utilicé para darle estilos a mi página, incluyendo los colores, tamaños, espacios y la distribución de las tarjetas. También me permitió implementar un diseño responsive para adaptar la página a diferentes tamaños de pantalla.
+- CSS3:  lo utilicé para darle estilos a mi página, incluyendo los colores, tamaños, espacios y la distribución de las tarjetas. También me permitió implementar un diseño responsive para adaptar la página a diferentes tamaños de pantalla.
 - JavaScript: lo utilicé para darle interactividad a mi página. Mediante funciones y ciclos for, pude generar colores aleatorios y crear las tarjetas de manera dinámica, según la cantidad seleccionada por el usuario. los utilicé para guardar los avances de mi proyecto y llevar un historial de los cambios que se realizaron según se iba acompletando una parte importante del proyecto. Almacené mi código en un repositorio.
 
 ## Decisiones técnicas 
