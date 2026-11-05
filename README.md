@@ -61,3 +61,16 @@ Después seguí estos pasos:
 https://dekisoriano.github.io/ProyectoM1_Esther/
 
 ## Documentación y evidencias 
+La documentación del proyecto incluye capturas del funcionamiento de la aplicación y evidencias del uso de inteligencia artificial durante su desarrollo.
+
+- [Documentación del uso de IA](Documentación/uso-ia.md)
+- [Capturas de la aplicación](Documentación/capturas/)
+- [Evidencias del uso de IA](Documentación/evidencias-ia/)
+
+## Estructura del proyecto
+
+- **Desarrollo:** contiene una copia del código fuente completo de la aplicación (HTML, CSS y JavaScript).
+- **Documentación:** contiene las capturas del funcionamiento y el documento sobre el uso de inteligencia artificial.
+- **README.md:** explica el funcionamiento del proyecto, las decisiones técnicas y los pasos para ejecutarlo y desplegarlo.
+
+Los archivos HTML, CSS y JavaScript también se mantienen en la raíz del repositorio para permitir su publicación mediante GitHub Pages.
